@@ -1,0 +1,352 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #182633;
+  padding: 10px 5px;
+  top: 0px;
+  z-index: 1000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  border-radius: 100px;
+}
+
+body {
+  width: 100%; /* Set the width of the body to 100% */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%; /* Adjust the width as needed for five cards to fit in a row */
+  margin: 10px;
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.feature-box {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #5631aa49;
+  width: 93%;
+}
+
+#contact {
+  text-align: center;
+}
+
+.feature-box2 {
+  /*max-width: 800px;  Set a max-width for the container if needed */
+  margin: 0 auto; 
+}
+
+.feature-box2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-box2 {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #5631aa49;
+}
+
+.counters-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.custom-button {
+  display: inline-block;
+  outline: 0;
+  border: 1px solid ;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #e052a0, #f15c41)!important;
+  border-radius: 10px;
+  padding: 16px 18px 15px;
+  white-space: nowrap;
+}
+
+.custom-button:hover {
+  background-color: #e6375a;
+  background-image: none!important;
+  
+}
+
+.custom-button:active {
+  background-color: #4e0606;
+  background-image: none!important;
+}
+
+.counter-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #222;
+}
+
+.counter-label {
+  font-size: 16px;
+  color: #777;
+  text-transform: uppercase;
+}
+
+#counter {
+  font-size: 30px;
+  font-weight: bold;
+  color: #182633;
+  font-family: Georgia;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+table {
+  margin: auto; /* This centers the table */
+}
+
+th, td {
+  border: 0px solid black;
+  padding: 8px;
+}
+
+.hd{
+      font-size: 36px;
+      margin: 0;
+      color: #fc3a18;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 90px; /* Adjust the logo size as needed */
+  margin-right: 10px; /* Adjust the spacing between logo and text */
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px; /* Adjust the spacing between navigation items */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3e556b;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-image: url(Inspirational\ Gradient\ Desktop\ Background.png);
+}
+
+.card {
+  width: 50%;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.bghd1
+{
+  color: rgb(255, 234, 46);
+  font-size: 60px;
+  text-align: center;
+}
+
+.ov{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: Georgia;
+  text-align: center;
+}
+
+.bghd2
+{
+    font-style: italic;
+  color: rgb(246, 195, 75);
+}
+
+.bgp1
+{
+  text-align: center;
+  color: #02101d;
+  font-weight: bold;
+}
+
+.bgp
+{
+  color: #acc4da;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+header, nav, section, footer {
+  margin: 20px;
+  padding: 10px;
+  border: px solid #ddd;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aqua;
+  font-weight: bold;
+
+}
+
+.footer1 {
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  color: #ddd;
+}
+
+#contact {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Make the main content area take up remaining vertical space */
+}
+
+footer {
+  background-color: #182633;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.custom-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 56px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 30px;
+  background-color: #FFA500; /* Vibrant Orange Color */
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: 0 4px 14px 0 rgb(255 165 0 / 39%);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button styles on hover */
+.custom-button:hover {
+  background: #FF8C00; /* Darker shade on hover */
+  box-shadow: 0 6px 20px rgb(255 165 0 / 23%);
+}
